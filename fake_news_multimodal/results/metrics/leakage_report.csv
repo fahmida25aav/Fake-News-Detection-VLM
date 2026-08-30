@@ -1,0 +1,13 @@
+pair,check,overlap,status
+train vs validation,sample_id,0,PASS
+train vs validation,group_id,0,PASS
+train vs validation,text_hash,0,PASS
+train vs validation,image_md5,0,PASS
+train vs test,sample_id,0,PASS
+train vs test,group_id,0,PASS
+train vs test,text_hash,0,PASS
+train vs test,image_md5,0,PASS
+validation vs test,sample_id,0,PASS
+validation vs test,group_id,0,PASS
+validation vs test,text_hash,0,PASS
+validation vs test,image_md5,0,PASS

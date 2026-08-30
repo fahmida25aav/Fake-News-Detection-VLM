@@ -1,0 +1,6 @@
+representation,dims,val_auc
+ITC only,1,0.5
+ITM only,1,0.5
+"embeddings, no scores",1024,0.95
+embeddings + ITC,1025,0.9525
+full (used),1026,0.9526

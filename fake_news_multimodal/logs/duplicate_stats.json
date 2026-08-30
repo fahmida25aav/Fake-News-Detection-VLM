@@ -1,0 +1,10 @@
+{
+  "exact_text_links": 910,
+  "exact_image_links": 134,
+  "text_lsh_candidate_pairs": 3413,
+  "near_text_links": 17,
+  "image_band_candidate_pairs": 4056210,
+  "near_image_links": 205,
+  "n_samples": 23246,
+  "n_groups": 21980
+}

@@ -1,0 +1,8 @@
+[
+  "1. Working set is 20,002 samples, not the proposal's 100k-200k. Constrained by image-link mortality and Colab wall-clock, not by GPU. Widens confidence intervals; the between-model comparison stays valid because all models share the identical split.",
+  "2. Fakeddit's published train/validate/test split was discarded and re-split at group level to prevent repost leakage. Results are therefore not comparable to published Fakeddit baselines.",
+  "3. Only samples whose image URL was still live were usable. Link mortality may not be random with respect to content, so the working set may not represent the full corpus.",
+  "4. BLIP-2 uses the ITM retrieval checkpoint, required for the image-text matching score. Findings apply to that configuration, not to BLIP-2 captioning variants.",
+  "5. The stacking meta-learner was fitted on out-of-fold training predictions rather than validation outputs, because validation was already used for early stopping, thresholds and voting weights.",
+  "6. Variability is estimated across 3 seeds for the VLM heads and 5-fold CV for the traditional models. Differences smaller than that spread should not be reported as findings."
+]

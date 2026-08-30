@@ -1,0 +1,6 @@
+representation,dims,val_auc
+cosine only,1,0.5
+image only,512,0.9055
+text only,512,0.9329
+image+text,1024,0.96
+full (used),2049,0.9597

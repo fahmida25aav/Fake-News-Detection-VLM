@@ -1,0 +1,30 @@
+{
+  "members": [
+    "XGBoost",
+    "CLIP",
+    "BLIP-2",
+    "CLIP+LoRA"
+  ],
+  "weights": {
+    "XGBoost": 0.0,
+    "CLIP": 0.2,
+    "BLIP-2": 0.4,
+    "CLIP+LoRA": 0.4
+  },
+  "stack_members": [
+    "XGBoost",
+    "CLIP",
+    "BLIP-2"
+  ],
+  "meta_coef": [
+    0.9189378392441317,
+    2.9058252976749546,
+    3.0692252709514602
+  ],
+  "meta_intercept": -3.1856572061676345,
+  "thresholds": {
+    "soft": 0.42405831813812256,
+    "weighted": 0.3364638090133667,
+    "stacking": 0.3959715669883697
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "method": "manual_download",
+  "source": "Fakeddit official dataset",
+  "directory": "/content/drive/MyDrive/New Project/data/raw",
+  "files": {
+    "multimodal_train.tsv": {
+      "path": "/content/drive/MyDrive/New Project/data/raw/multimodal_train.tsv",
+      "size_bytes": 155656851,
+      "size_mb": 148.45,
+      "md5": "b0c5068fa516d1f3103032524df82693"
+    },
+    "multimodal_validate.tsv": {
+      "path": "/content/drive/MyDrive/New Project/data/raw/multimodal_validate.tsv",
+      "size_bytes": 16343460,
+      "size_mb": 15.59,
+      "md5": "abf58021972218fd88c4c6b80741fb56"
+    },
+    "multimodal_test_public.tsv": {
+      "path": "/content/drive/MyDrive/New Project/data/raw/multimodal_test_public.tsv",
+      "size_bytes": 16402086,
+      "size_mb": 15.64,
+      "md5": "f5f9e076ad2a672640413c6b88aab602"
+    }
+  },
+  "retrieved_utc": "2026-08-30T13:38:25Z",
+  "citation": "Nakamura, K., Levy, S. and Wang, W.Y. (2020) 'r/Fakeddit: a new multimodal benchmark dataset for fine-grained fake news detection', LREC 2020, pp. 6149-6157."
+}

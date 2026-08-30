@@ -1,0 +1,66 @@
+[
+  {
+    "model": "LogisticRegression",
+    "cv_f1_train": 0.7411426613285113,
+    "val_f1": 0.7640791476407914,
+    "val_auc": 0.8310254773786264,
+    "val_acc": 0.7416666666666667,
+    "threshold": 0.2388130419771158,
+    "fit_seconds": 49.5,
+    "best_params": {
+      "C": 0.1
+    }
+  },
+  {
+    "model": "DecisionTree",
+    "cv_f1_train": 0.6525406285766276,
+    "val_f1": 0.6454322716135806,
+    "val_auc": 0.6138115356649523,
+    "val_acc": 0.6623333333333333,
+    "threshold": 0.5,
+    "fit_seconds": 915.4,
+    "best_params": {
+      "max_depth": 16,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "model": "RandomForest",
+    "cv_f1_train": 0.7372195351162484,
+    "val_f1": 0.7657766990291263,
+    "val_auc": 0.8416132739791538,
+    "val_acc": 0.7426666666666667,
+    "threshold": 0.43,
+    "fit_seconds": 323.1,
+    "best_params": {
+      "max_depth": null,
+      "min_samples_leaf": 1
+    }
+  },
+  {
+    "model": "XGBoost",
+    "cv_f1_train": 0.79498487756787,
+    "val_f1": 0.8080175383651739,
+    "val_auc": 0.8822669018078253,
+    "val_acc": 0.7956666666666666,
+    "threshold": 0.30117887258529663,
+    "fit_seconds": 1252.8,
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 6
+    }
+  },
+  {
+    "model": "KNN",
+    "cv_f1_train": 0.6404602100162418,
+    "val_f1": 0.6869712351945855,
+    "val_auc": 0.6926307868991768,
+    "val_acc": 0.5683333333333334,
+    "threshold": 0.26762304463129516,
+    "fit_seconds": 8.6,
+    "best_params": {
+      "n_neighbors": 15,
+      "weights": "distance"
+    }
+  }
+]
